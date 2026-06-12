@@ -12,3 +12,4 @@ __pycache__/
 .venv/
 venv/
 ENV/
+ivoryos_barista_demo.egg-info/

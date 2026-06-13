@@ -1,0 +1,114 @@
+{
+  "deck": "main",
+  "name": null,
+  "uuid": null,
+  "author": "admin",
+  "status": "editing",
+  "id_order": {
+    "prep": [],
+    "script": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "cleanup": []
+  },
+  "registered": false,
+  "description": "",
+  "script_dict": {
+    "prep": [],
+    "script": [
+      {
+        "id": 1,
+        "args": {
+          "bean_grams": "#bean_grams"
+        },
+        "uuid": 166162965176717,
+        "action": "add_beans",
+        "return": "",
+        "arg_order": [
+          "bean_grams"
+        ],
+        "arg_types": {
+          "bean_grams": "float"
+        },
+        "coroutine": false,
+        "instrument": "deck.coffee_machine",
+        "batch_action": false,
+        "consolidate_batch_args": []
+      },
+      {
+        "id": 2,
+        "args": {
+          "milk_ml": "#milk_ml"
+        },
+        "uuid": 156171313716159,
+        "action": "add_milk",
+        "return": "",
+        "arg_order": [
+          "milk_ml"
+        ],
+        "arg_types": {
+          "milk_ml": "float"
+        },
+        "coroutine": false,
+        "instrument": "deck.coffee_machine",
+        "batch_action": false,
+        "consolidate_batch_args": []
+      },
+      {
+        "id": 3,
+        "args": {
+          "sugar_grams": "#sugar_grams"
+        },
+        "uuid": 245509593673343,
+        "action": "add_sugar",
+        "return": "",
+        "arg_order": [
+          "sugar_grams"
+        ],
+        "arg_types": {
+          "sugar_grams": "float"
+        },
+        "coroutine": false,
+        "instrument": "deck.coffee_machine",
+        "batch_action": false,
+        "consolidate_batch_args": []
+      },
+      {
+        "id": 4,
+        "args": {},
+        "uuid": 37081324707667,
+        "action": "top_up_with_hot_water",
+        "return": "",
+        "arg_order": [],
+        "arg_types": {},
+        "coroutine": false,
+        "instrument": "deck.coffee_machine",
+        "batch_action": false,
+        "consolidate_batch_args": []
+      },
+      {
+        "id": 5,
+        "args": {},
+        "uuid": 202222679945908,
+        "action": "taste",
+        "return": "results",
+        "arg_order": [],
+        "arg_types": {},
+        "coroutine": false,
+        "instrument": "deck.customer",
+        "batch_action": false,
+        "consolidate_batch_args": []
+      }
+    ],
+    "cleanup": []
+  },
+  "editing_type": "script",
+  "time_created": "2026-04-26 19:43:34",
+  "last_modified": "2026-04-26 19:44:07",
+  "python_script": null,
+  "return_values": null
+}
